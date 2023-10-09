@@ -1,1 +1,58 @@
 /* Header Component CSS */
+/* Header Component CSS */
+/* Header styles */
+.header {
+    background-color: #06376b;
+    color: #fff;
+    padding: 20px 0;
+    font-family: poppins;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .logo a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .logo a:hover {
+    color: #ff4500; /* Change color on hover */
+  }
+  
+  .nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .nav li {
+    margin-right: 20px;
+  }
+  
+  .nav a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .nav a:hover {
+    color: #ff4500; /* Change color on hover */
+  }
+  
