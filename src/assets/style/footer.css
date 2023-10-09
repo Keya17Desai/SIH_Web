@@ -1,1 +1,40 @@
 /* Footer Component CSS */
+/* Footer styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-family: intern;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .copyright {
+    font-size: 16px;
+  }
+  
+  .social-icons {
+    font-size: 24px;
+  }
+  
+  .social-icon {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    color: #007bff; /* Change the color on hover */
+  }
+  /* Footer Component CSS */
